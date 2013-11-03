@@ -1,0 +1,25 @@
+2011-02-02  Takashi Masuda  <masutaka.net@gmail.com>
+
+	* ドキュメント整備 [IMGDIFF_2]:
+
+	00readme.txt の説明を id_readme.h に移動した。
+	Doxygen のメインページに反映される。
+
+2011-02-01  Takashi Masuda  <masutaka.net@gmail.com>
+
+	* pbm/pgm に対応 [IMGDIFF_1]:
+
+	- pbm/pgm に対応した。
+	  内部では 8bpp に拡張しているのでメモリ効率は悪い。結構やっつけ仕事。。。
+	  2bpp/4bpp はテストしていない。
+	  Solaris9(BIGENDIAN) 環境ではテストしていない。
+	- コンパイル時の WARNING を ERROR と扱うようにした。
+
+	* ベースラインの作成 [IMGDIFF_0]:
+
+# Local Variables:
+# mode: change-log
+# coding: shift_jis
+# tab-width: 8
+# fill-column: 78
+# End:
